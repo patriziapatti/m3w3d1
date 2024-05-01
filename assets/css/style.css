@@ -6,6 +6,11 @@ body{
     border-radius: 50%;
 }
 
+nav > div > div:nth-child(2) > i{
+    background-color: rgb(227, 221, 221);
+    border-radius: 50%;
+}
+
 #sectionHero{
     color: white;
 }
@@ -39,7 +44,19 @@ body{
     color: grey;
 }
 
-#sectionCarousel1\  > div > div > div > div > ul > li > p > img{
+#sectionCarousel1\ > div > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#sectionCarousel2\ > div > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#sectionCarousel3\ > div > div > div > div > ul > li > p > img{
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -58,4 +75,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+footer > div > div > div:nth-child(2) > ul > li{
+    list-style: none;
 }
