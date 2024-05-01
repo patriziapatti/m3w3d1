@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(246, 241, 241);
+}
+
+#avatar1{
+    border-radius: 50%;
+}
+
+#sectionHero{
+    color: white;
+}
+
+#sectionHero > div > div:nth-child(1) > div > button:nth-child(3){
+    background-color: rgb(96, 251, 165);
+    color: white;
+    border-radius: 5px;
+}
+
+#sectionHero > div > div:nth-child(1) > div > button:nth-child(4){
+    background-color: white;
+    border-radius: 5px;
+}
+
+#section2{
+    background-color: white;
+    border-bottom: 1px gray;
+}
+
+i{
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(247, 196, 191);
+    border-radius: 50%;
+
+}
+
+#section2 > div > div > div > span{
+    color: grey;
+}
+
