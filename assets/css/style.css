@@ -25,8 +25,7 @@ body{
     background-color: white;
     border-bottom: 1px gray;
 }
-
-i{
+#section2 > div > div > div.me-3 > i{
     width: 40px;
     height: 40px;
     align-content: center;
@@ -40,3 +39,23 @@ i{
     color: grey;
 }
 
+#sectionCarousel1\  > div > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.card-text {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.card {
+    height: 100%; 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
