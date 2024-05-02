@@ -13,6 +13,8 @@ nav > div > div:nth-child(2) > i{
 
 #sectionHero{
     color: white;
+    padding-left: 11%;
+    padding-right: 11%;
 }
 
 #sectionHero > div > div:nth-child(1) > div > button:nth-child(3){
@@ -29,6 +31,8 @@ nav > div > div:nth-child(2) > i{
 #section2{
     background-color: white;
     border-bottom: 1px gray;
+    padding-left: 11%;
+    padding-right: 11%;
 }
 #section2 > div > div > div.me-3 > i{
     width: 40px;
@@ -75,6 +79,51 @@ nav > div > div:nth-child(2) > i{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#carouselCards > div > div > div.carousel-item.active > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#carouselCards > div > div > div.carousel-item > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#carouselCards1 > div > div > div.carousel-item.active > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#carouselCards1 > div > div > div.carousel-item > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#carouselCards2 > div > div > div.carousel-item.active > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#carouselCards2 > div > div > div.carousel-item > div > div > div > ul > li > p > img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+span.carousel-control-next-icon{
+    background-color: rgb(56, 56, 56);
+    border-radius: 50%;
+}
+
+span.carousel-control-prev-icon{
+    background-color: rgb(56, 56, 56);
+    border-radius: 50%;
 }
 
 footer > div > div > div:nth-child(2) > ul > li{
