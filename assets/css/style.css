@@ -73,6 +73,12 @@ nav > div > div:nth-child(2) > i{
 
 .card {
     height: 100%; 
+    transition: box-shadow 0.5s; transform:0.5s;
+}/*provare a far coincidere la card con il div col ma poi devo sistemare tutto il resto*/
+
+.card:hover{
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
 }
 
 .card-body {
@@ -125,6 +131,10 @@ span.carousel-control-prev-icon{
     background-color: rgb(56, 56, 56);
     border-radius: 50%;
 }
+
+/*#carouselCards > div > div > div.carousel-item.active > div > div:nth-child(1) > div > ul > li > i:hover{
+    fill: black;
+}*/
 
 footer > div > div > div:nth-child(2) > ul > li{
     list-style: none;
